@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Type"
+        android:textSize="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerInputType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:entries="@array/input_type_entries"
+        android:focusable="false"></Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity Type"
+        android:textSize="10dp" />
+
+    <Spinner
+        android:id="@+id/spinnerAccType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:entries="@array/activity_type_entries"
+        android:focusable="false"></Spinner>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="btnStartClicked"
+        android:text="@string/ui_btn_start_title" />
+
+</LinearLayout>
+
+

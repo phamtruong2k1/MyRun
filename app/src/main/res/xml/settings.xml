@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Account Preferences">
+        <Preference
+            android:id="@+id/user_profile"
+            android:key="change_user_profile"
+            android:summary="User Profile"
+            android:title="Name, Email, Class, etc" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_1"
+            android:title="Privacy Setting"
+            android:summary="Posting your records annonymously"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Additional Settings">
+
+        <ListPreference
+            android:entries="@array/unitpreference_entities"
+            android:entryValues="@array/unitpreference_values"
+            android:key="list_preference_1"
+            android:summary="Select the units"
+            android:title="Unit Preference" />
+        <EditTextPreference
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Please enter your comments"
+            android:title="Comments" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Misc.">
+        <Preference
+            android:title="Webpage"
+            android:summary="http://www.sfu.ca/computing.html"
+            >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.sfu.ca/computing.html"
+                />
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

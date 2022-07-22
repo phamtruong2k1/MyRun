@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">HaAnh_Le_MyRuns3</string>
+
+
+    <!-- Linear/Scrowlview layout -->
+
+    <string name="ui_btn_start_title">START</string>
+
+    <string-array name="input_type_entries">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="activity_type_entries">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+    //Unit preference
+    <string-array name="unitpreference_entities">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+
+    <string-array name="unitpreference_values">
+        <item>km</item>
+        <item>mi</item>
+    </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAboqRORQP-ySwT3-k40K2idVeBK73iHOk</string>
+</resources>
